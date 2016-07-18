@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/slidebars.css">
+    <link rel="stylesheet" href="css/loadingbar.css">
+
 
 
 </head>
@@ -66,7 +68,22 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="js/slidebars.js"></script>
+    <script src="js/imgload.js"></script>
+    <script src="js/progessbar.js"></script>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript">
+    NProgress.start();
+    $('.main-content-img').imagesLoaded()
+      .always( function( instance ) {
+      })
+      .done( function( instance ) {
+        NProgress.inc();
+        NProgress.done();
+
+      })
+
+
+    </script>
 
 </body>
 
