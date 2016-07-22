@@ -18,7 +18,7 @@
 
 <body>
 
-    <div canvas="container">
+    <div id="full-container" canvas="container">
             <div class="nav">
                 <button class="js-toggle-right-slidebar hamburger hamburger--slider" type="button">
                     <span class="hamburger-box">
@@ -34,7 +34,7 @@
             <div class="show-page-content">
               <div class="show-main-gradient" style="background-color:#f76a38;padding-top:10px;padding-bottom:100px">
                 <div class="container load-img">
-                  <img src="img/imdbcover.png" alt="">
+                  <img class="fadein" src="img/imdbcover.png" alt="">
                 </div>
               </div>
               <div class="down">
@@ -56,7 +56,7 @@
                 <div class="footer" style="padding-top:30px">
                   <div class="site-map">
                     <a href="/">Home</a>
-                    <a href="/work">Portfolio</a>
+                    <a href="/work.html">Portfolio</a>
                   </div><br>
                 </div>
               </div>
@@ -85,18 +85,23 @@
     <script src="https://cdn.jsdelivr.net/imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
     <script src="js/min/progessbar.js"></script>
     <script src="js/min/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
     <script type="text/javascript">
-    NProgress.start();
-    $('.load-img').imagesLoaded()
-      .always( function( instance ) {
-      })
-      .done( function( instance ) {
-        NProgress.inc();
-        NProgress.done();
-
-      })
-
-
+        window.sr = ScrollReveal({
+            container: document.getElementById('full-container'),
+            viewFactor: 0.5
+        });
+        NProgress.start();
+        $('.load-img').imagesLoaded()
+            .always(function(instance) {})
+            .done(function(instance) {
+                NProgress.inc();
+                NProgress.done();
+                sr.reveal('.fadein');
+                $("#full-container").animate({
+                    opacity: "1"
+                });
+        })
     </script>
 
     <script>

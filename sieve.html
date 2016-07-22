@@ -18,7 +18,7 @@
 
 <body>
 
-    <div canvas="container">
+    <div id="full-container"canvas="container">
             <div class="nav">
                 <button class="js-toggle-right-slidebar hamburger hamburger--slider" type="button">
                     <span class="hamburger-box">
@@ -34,7 +34,7 @@
             <div class="show-page-content">
               <div class="show-main-gradient" style="background-color:#1961ca;padding-top:50px;padding-bottom:150px">
                 <div class="container load-img">
-                  <img src="img/sievecover.png" alt="">
+                  <img class="fadein" src="img/sievecover.png" alt="">
                 </div>
               </div>
               <div class="down">
@@ -85,18 +85,23 @@
     <script src="https://cdn.jsdelivr.net/imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
     <script src="js/min/progessbar.js"></script>
     <script src="js/min/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
     <script type="text/javascript">
-    NProgress.start();
-    $('.load-img').imagesLoaded()
-      .always( function( instance ) {
-      })
-      .done( function( instance ) {
-        NProgress.inc();
-        NProgress.done();
-
-      })
-
-
+        window.sr = ScrollReveal({
+            container: document.getElementById('full-container'),
+            viewFactor: 0.5
+        });
+        NProgress.start();
+        $('.load-img').imagesLoaded()
+            .always(function(instance) {})
+            .done(function(instance) {
+                NProgress.inc();
+                NProgress.done();
+                sr.reveal('.fadein');
+                $("#full-container").animate({
+                    opacity: "1"
+                });
+        })
     </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
