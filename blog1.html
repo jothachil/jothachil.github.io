@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>| John Thachil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Thachil • UI Designer• Front End Developer">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/slidebars.css">
+    <link rel="stylesheet" href="css/prism.css">
+
+
+
+
+</head>
+
+<body >
+
+    <div canvas="container" >
+        <div class="nav">
+            <button class="js-toggle-right-slidebar hamburger hamburger--slider" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+        <div class="post-container">
+            <h1>Setting up Android Studio on Yosemite</h1>
+            <time class="post-time">31 Dec 2013</time>
+            <section class="post-content">
+                <p>I've set out to learn some of the Android framework this quarter, which means setting up Java and the lastest version of Android Studio.</p>
+                <p>As it happens, I formatted my laptop today and did a clean install of Yosemite so my machine is about as stock as they come. As I was setting up Android Studio, I ran into some hiccups and thought I'd document them for anyone else running
+                    into similar issues</p>
+                <h2>Step 1: Install Android Studio</h2>
+                <p>After downloading Android Studio and firing <code class="language-css">p { color: red }</code> it up for the first time, I was immediately confronted with an error:</p>
+                <blockquote>
+                    <p>Android Studio was unable to find a valid JVM</p>
+                </blockquote>
+                <p>Aenean lacinia <code class="language-css">Magna Condimentum</code> bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
+                <p><img class="full-img" src="https://robdodson.me/content/images/2016/06/modal.jpg" alt=""></p>
+                <p>Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
+                <pre><code class="language-css">p { color: red }</code></pre>
+                <hr>
+
+
+
+
+
+            </section>
+        </div>
+    </div>
+
+
+
+
+    <div off-canvas="slidebar-2 right shift">
+        <div class="sidebar">
+            <ul>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="work.html">Portfolio</a></li>
+            </ul>
+            <div class="bottom">
+                <a href="mailto:jothachil@gmail.com">
+                    <div class="button">Contact</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/slidebars/2.0.2/slidebars.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
+    <script src="js/min/progessbar.js"></script>
+    <script src="js/min/prism-min.js"></script>
+
+    <script src="js/min/scripts.js"></script>
+    <script type="text/javascript">
+        NProgress.start();
+        $('.load-img').imagesLoaded()
+            .always(function(instance) {})
+            .done(function(instance) {
+                NProgress.inc();
+                NProgress.done();
+
+            })
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-81127561-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
