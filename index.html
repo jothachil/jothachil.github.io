@@ -1,120 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>| John Thachil</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="John Thachil • UI Designer• Front End Developer">
-  <link rel="shortcut icon" type="image/png" href="favicon.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="screen"
-    title="no title" charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="css/slidebars.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 
-
-
+  <title>John Thachil</title>
 </head>
-
-<body>
-
-  <div canvas="container">
-    <div class="nav">
-      <button class="js-toggle-right-slidebar hamburger hamburger--slider" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-    </div>
-
-    <div class="container">
-
-      <div class="main-content">
-        <div class="row">
-          <div class="col col--1-of-3 col--s-1-of-3 col--m-1-of-3 main-content-img load-img">
-            <img src="img/me.jpg" alt="">
-          </div>
-
-          <div class="col col--2-of-3 col--s-2-of-3  col--m-2-of-3 main-content-text">
-            <h3>John Thachil</h3>
-            <p>Designer &amp Front End Developer</p>
-            <p class="tw-handle">@jothachil</p>
-            <div class="icons">
-              <a href="http://behance.net/johnthachil" target="_blank"><i class="fa fa-behance color-icons"
-                  aria-hidden="true"></i></a><a href="https://github.com/johnthachil" target="_blank"><i
-                  class="fa fa-github color-icons" aria-hidden="true"></i></a><a class="resume"
-                href="https://www.dropbox.com/s/0scox52jnofa940/web.pdf?dl=0" target="_blank"><i
-                  class="fa fa-arrow-down" aria-hidden="true"></i>
-                resume</a>
-            </div>
-
-          </div>
-        </div>
+<body class="bg-neutral-900">
+  <div class="p-20 text-white">
+    <div class="w-4 h-4 bg-[#ff2e00] rounded-full"></div>
+    <h1 class="text-lg mt-4 font-bold">John Thachil</h1>
+    <p class="text-md text-neutral-200">Product Designer</p>
+      <div class="max-w-[500px] mt-4 ">
+        <p class=" text-sm text-neutral-600 dark:text-neutral-400">
+          I'm a designer with an interest in building and coding. I strongly advocate
+          for maintaining high product quality standards and believe that a deep
+          understanding of technical constraints is essential for enhancing that
+          quality.
+        </p>
+        <p class=" mt-4 text-sm text-neutral-600 dark:text-neutral-400">
+          Currently, I am spearheading neo-banking initiatives at
+          <a href="https://lazypay.in/" class="underline ">LazyPay</a> while
+          developing a comprehensive design system from the ground up.
+        </p>
       </div>
 
-    </div>
-  </div>
-
-
-
-
-  <div off-canvas="slidebar-2 right shift">
-    <div class="sidebar">
-      <ul>
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="work.html">Portfolio</a></li>
-        <li><a href="others.html">Open source</a></li>
-
-      </ul>
-      <div class="bottom">
-        <a href="mailto:jothachil@gmail.com">
-          <div class="button">Contact</div>
-        </a>
+      <div class="mt-10 flex gap-4">
+        <a href="www.johnthachil.com" class="underline hover:text-neutral-400">Portfolio</a>
+        <a href="https://www.linkedin.com/in/jothachil/" class="underline hover:text-neutral-400">LinkedIn</a>
+        <a href="mailto:jothachil@gmail.com" class="underline hover:text-neutral-400">Email</a>
+        <a href="https://github.com/jothachil" class="underline hover:text-neutral-400">Github</a>
       </div>
-    </div>
   </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/slidebars/2.0.2/slidebars.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
-  <script src="js/min/progessbar.js"></script>
-  <script src="js/min/scripts.js"></script>
-  <script type="text/javascript">
-    NProgress.start();
-    $('.load-img').imagesLoaded()
-      .always(function (instance) {
-      })
-      .done(function (instance) {
-        NProgress.inc();
-        NProgress.done();
-
-      })
-
-  </script>
-  <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-81127561-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- Hotjar Tracking Code for http://johnthachil.github.io -->
-  <script>
-    (function (h, o, t, j, a, r) {
-      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-      h._hjSettings = { hjid: 315403, hjsv: 5 };
-      a = o.getElementsByTagName('head')[0];
-      r = o.createElement('script'); r.async = 1;
-      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
-  </script>
-
 </body>
-
 </html>
