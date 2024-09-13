@@ -1,58 +1,58 @@
 [
-    {
-        id: 111,
-        name: 'Huuman',
-        subheading: 'An opinionated list of best-designed products',
-        imageurl: 'v1725935687/johnthachil.com/Sideprojects/huuman-design.png',
-        link: 'https://huuman.xyz/',
-        tags: ['craft', 'web']
-    },
-    {
-        id: 114,
-        name: 'Currency Formatter',
-        subheading: 'Making money looking pretty one bye one',
-        imageurl: 'v1726105666/johnthachil.com/Sideprojects/currency-formatter-v2.png',
-        link: 'https://www.figma.com/community/plugin/1414287635291252378/currency-formatter',
-        tags: ['figma', 'plugin']
-    },
-    {
-        id: 117,
-        name: 'Case Shifter',
-        subheading: 'Transform your layer name, one case at a time.',
-        imageurl: 'v1726105666/johnthachil.com/Sideprojects/case-shifter-v3.png',
-        link: 'https://www.figma.com/community/plugin/1412637652052056399/case-shifter',
-        tags: ['figma', 'plugin']
-    },
-    {
-        id: 118,
-        name: 'Cloudinary Image Uploader',
-        subheading: 'Upload images directly from Figma to Cloudinary',
-        imageurl: 'v1726105666/johnthachil.com/Sideprojects/cloudinary-image-uploader.png',
-        link: 'https://www.figma.com/community/plugin/1412637652052056399/case-shifter',
-        tags: ['figma', 'plugin', 'cloudinary']
-    },
-    {
-        id: 116,
-        name: 'Elevate',
-        subheading: 'End-to-end design language documentation of LazyPay',
-        imageurl: 'v1703693533/johnthachil.com/Sideprojects/elevate.png',
-        link: 'https://elevate.lazypay.in/',
-        tags: ['design system', 'web']
-    },
-    {
-        id: 112,
-        name: 'Eleva',
-        subheading: 'Zeplin extension for showing shadow design tokens',
-        imageurl: 'v1639842118/johnthachil.com/Sideprojects/zeplin.png',
-        link: 'https://extensions.zeplin.io/johnthachil/eleva',
-        tags: ['zeplin', 'design system']
-    },
-    {
-        id: 113,
-        name: 'Zoom Icon System',
-        subheading: 'Font icon generator for Zoom Web, Android and iOS',
-        imageurl: 'v1639842118/johnthachil.com/Sideprojects/iconsystem.png',
-        link: 'https://pedantic-euler-3b0c5b.netlify.app/',
-        tags: ['icon', 'design system']
-    }
+  {
+    "id": 111,
+    "name": "Huuman",
+    "subheading": "An opinionated list of best-designed products",
+    "imageurl": "v1725935687/johnthachil.com/Sideprojects/huuman-design.png",
+    "link": "https://huuman.xyz/",
+    "tags": ["craft", "web"]
+  },
+  {
+    "id": 114,
+    "name": "Currency Formatter",
+    "subheading": "Making money looking pretty one bye one",
+    "imageurl": "v1726105666/johnthachil.com/Sideprojects/currency-formatter-v2.png",
+    "link": "https://www.figma.com/community/plugin/1414287635291252378/currency-formatter",
+    "tags": ["figma", "plugin"]
+  },
+  {
+    "id": 117,
+    "name": "Case Shifter",
+    "subheading": "Transform your layer name, one case at a time.",
+    "imageurl": "v1726105666/johnthachil.com/Sideprojects/case-shifter-v3.png",
+    "link": "https://www.figma.com/community/plugin/1412637652052056399/case-shifter",
+    "tags": ["figma", "plugin"]
+  },
+  {
+    "id": 118,
+    "name": "Cloudinary Image Uploader",
+    "subheading": "Upload images directly from Figma to Cloudinary",
+    "imageurl": "v1726105666/johnthachil.com/Sideprojects/cloudinary-image-uploader.png",
+    "link": "https://www.figma.com/community/plugin/1412637652052056399/case-shifter",
+    "tags": ["figma", "plugin", "cloudinary"]
+  },
+  {
+    "id": 116,
+    "name": "Elevate",
+    "subheading": "End-to-end design language documentation of LazyPay",
+    "imageurl": "v1703693533/johnthachil.com/Sideprojects/elevate.png",
+    "link": "https://elevate.lazypay.in/",
+    "tags": ["design system", "web"]
+  },
+  {
+    "id": 112,
+    "name": "Eleva",
+    "subheading": "Zeplin extension for showing shadow design tokens",
+    "imageurl": "v1639842118/johnthachil.com/Sideprojects/zeplin.png",
+    "link": "https://extensions.zeplin.io/johnthachil/eleva",
+    "tags": ["zeplin", "design system"]
+  },
+  {
+    "id": 113,
+    "name": "Zoom Icon System",
+    "subheading": "Font icon generator for Zoom Web, Android and iOS",
+    "imageurl": "v1639842118/johnthachil.com/Sideprojects/iconsystem.png",
+    "link": "https://pedantic-euler-3b0c5b.netlify.app/",
+    "tags": ["icon", "design system"]
+  }
 ]
