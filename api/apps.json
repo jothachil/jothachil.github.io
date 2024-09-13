@@ -1,0 +1,143 @@
+[
+  {
+    "id": "ckvkcwcxklk6t0b81ckkd80kt",
+    "img": "v1723300411/johnthachil.com/Uses/ellie.png",
+    "link": "https://to-do.microsoft.com/",
+    "name": "Ellie Todo",
+    "color": {
+      "hex": "#1b71c8"
+    },
+    "description": "To be becomes productive once in a while"
+  },
+  {
+    "id": "ckvkcwj3slhun0b855lm2zhb8",
+    "img": "v1635933970/johnthachil.com/Uses/notion.png",
+    "link": "https://www.notion.so/",
+    "name": "Notion",
+    "color": {
+      "hex": "#000000"
+    },
+    "description": "To show off my organisation powers"
+  },
+  {
+    "id": "ckvkcwjvklhur0b85zepatapm",
+    "img": "v1635933970/johnthachil.com/Uses/letterboxd.png",
+    "link": "https://letterboxd.com/",
+    "name": "Letterboxd",
+    "color": {
+      "hex": "#00e067"
+    },
+    "description": "Second brain for the movies"
+  },
+  {
+    "id": "ckvkcwpa0lhvi0b85fwotlq0x",
+    "img": "v1635933970/johnthachil.com/Uses/raycast.png",
+    "link": "https://raycast.com/",
+    "name": "Raycast",
+    "color": {
+      "hex": "#ff6162"
+    },
+    "description": "My spotlight replacement"
+  },
+  {
+    "id": "ckxdebgvc832i0a89k4if1960",
+    "img": "v1639927054/johnthachil.com/Uses/dashlane.png",
+    "link": "https://www.dashlane.com/",
+    "name": "Dashlane",
+    "color": {
+      "hex": "#0e353e"
+    },
+    "description": "Second Brain for Passwords. PS: it's beautifully designed"
+  },
+  {
+    "id": "clnfucm4f33ka0azooels4nbx",
+    "img": "v1696671379/johnthachil.com/Uses/arc.png",
+    "link": "https://arc.net/",
+    "name": "Arc Browser",
+    "color": {
+      "hex": "#ddd7e9"
+    },
+    "description": "This is, without any doubt, the best browser I've ever used"
+  },
+
+  {
+    "id": "ckvkcvps8ljpd0b88hc9s4sr0",
+    "img": "v1635933970/johnthachil.com/Uses/figma.png",
+    "link": "https://www.figma.com/",
+    "name": "Figma",
+    "color": {
+      "hex": "#a259ff"
+    },
+    "description": "All things design. Yes, it’s my new diamond"
+  },
+  {
+    "id": "ckvkcvs3klhrj0b8597d8u4v3",
+    "img": "v1635933970/johnthachil.com/Uses/sip.png",
+    "link": "https://sipapp.io/",
+    "name": "Sip",
+    "color": {
+      "hex": "#00b5fe"
+    },
+    "description": "Magic wand which picks my colors"
+  },
+  {
+    "id": "ckvkcvuewljpo0b88p6lj7u97",
+    "img": "v1635933970/johnthachil.com/Uses/imageoptim.png",
+    "link": "https://imageoptim.com/",
+    "name": "ImageOptim",
+    "color": {
+      "hex": "#fbc349"
+    },
+    "description": "Since all the DEVs likes things compresssssed"
+  },
+  {
+    "id": "ckvkcw24olhss0b8594tozyzm",
+    "img": "v1635933970/johnthachil.com/Uses/vscode.png",
+    "link": "https://code.visualstudio.com/",
+    "name": "VS Code",
+    "color": {
+      "hex": "#3894c7"
+    },
+    "description": "I heard this is what all the cool people are using now a days"
+  },
+  {
+    "id": "ckvkcw4g0lg6z0b36lon6oszz",
+    "img": "v1635933970/johnthachil.com/Uses/iterm2.png",
+    "link": "https://www.iterm2.com/index.html",
+    "name": "Iterm2",
+    "color": {
+      "hex": "#01ae13"
+    },
+    "description": "cause why not, native mac termial is boring"
+  },
+  {
+    "id": "ckvkcw5zklg730b36w0f8uqc4",
+    "img": "v1635933970/johnthachil.com/Uses/nightowl.png",
+    "link": "https://marketplace.visualstudio.com/items?itemName=sdras.night-owl",
+    "name": "Nightowl",
+    "color": {
+      "hex": "#001e36"
+    },
+    "description": "Theme across VS Code & Iterm. Designer Broooo"
+  },
+  {
+    "id": "ckvkcw7j4lhtg0b859v0vycyw",
+    "img": "v1635933970/johnthachil.com/Uses/jetbrains.png",
+    "link": "https://jetbrains.com/mono",
+    "name": "Jet Brains Mono Font",
+    "color": {
+      "hex": "#0c62fe"
+    },
+    "description": "Even if code doesn’t work, It sure looks damn goood"
+  },
+  {
+    "id": "ckvkcw92olg780b36cnn3h9ex",
+    "img": "v1635933970/johnthachil.com/Uses/twitter.png",
+    "link": "https://twitter.com/",
+    "name": "Twitter",
+    "color": {
+      "hex": "#01b8f5"
+    },
+    "description": "To keep up with all the coooool People in design,"
+  }
+]

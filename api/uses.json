@@ -1,0 +1,176 @@
+[
+  {
+    "category_name": "Workstation",
+    "id": "ckvkbkdb4lamy0b36fiqgxqnt",
+    "uses": [
+      {
+        "id": "ckvkbk5lclein0b88q3bhryps",
+        "name": "14” Macbook Pro (2021)",
+        "description": "M1 Pro is worth the hype",
+        "link": "https://bit.ly/4cJXnL0",
+        "img": "v1723288565/johnthachil.com/Uses/mac-prov2.png",
+        "color": {
+          "hex": "#5d2090"
+        }
+      },
+      {
+        "id": "ckvkbpa08lfab0b88a5ssm3qz",
+        "name": "BenQ 32 EW3270U",
+        "description": "Home Office / Entertainment thingy",
+        "link": "https://bit.ly/4fYhNTk",
+        "img": "v1723290073/johnthachil.com/Uses/benqv1.png",
+        "color": {
+          "hex": "#e1cf02"
+        }
+      },
+      {
+        "id": "ckvkbpbjslbb80b36nut53b1g",
+        "name": "Logitech MX Anywhere 2S",
+        "description": "Couldn’t afford the bigger brother MX Master 3",
+        "link": "https://amzn.to/3XgaPSy",
+        "img": "v1723290330/johnthachil.com/Uses/mx-anywhere-big.png",
+        "color": {
+          "hex": "#508b30"
+        }
+      },
+      {
+        "id": "ckvkcvztclhsi0b85ycyb5fpi",
+        "name": "Logitech MX Sound 2.0",
+        "description": "For the solo DJ Sessions at home.",
+        "link": "https://amzn.to/3yP2onP",
+        "img": "v1723290798/johnthachil.com/Uses/mx-logic-sound.png",
+        "color": {
+          "hex": "#00ead0"
+        }
+      },
+      {
+        "id": "ckvkbpd3cld230b857fj0mssn",
+        "name": "Logitech K380",
+        "description": "Again could not get my hands on keychrone K1",
+        "link": "https://amzn.to/3yP1XKd",
+        "img": "v1723299898/johnthachil.com/Uses/mx-k380v2.png",
+        "color": {
+          "hex": "#cabb4d"
+        }
+      },
+      {
+        "id": "ckvkcvlxclg4y0b363n2xllcr",
+        "name": "Sony WH-1000XM3",
+        "description": "Since I don’t want to shhhhhh.. others",
+        "link": "https://bit.ly/471fFGs",
+        "img": "v1723288442/johnthachil.com/Uses/mx-3v2.png",
+        "color": {
+          "hex": "#92806a"
+        }
+      },
+      {
+        "id": "clzpj0zdye73u071c0mboetiy",
+        "name": "Apple Magic Trackpad",
+        "description": "For the magic to happen you need magic tools",
+        "link": "https://apple.co/478mPJ1",
+        "img": "v1723378320/johnthachil.com/Uses/trackpad.png",
+        "color": {
+          "hex": "#9b9b9b"
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "Home Entertainment",
+    "id": "clzo34ynb9j3i071cjr7rtbkc",
+    "uses": [
+      {
+        "id": "clzlhozpo10so07znhwcmktea",
+        "name": "LG C2 OLED",
+        "description": "For all that deep deep black",
+        "link": "https://bit.ly/3XjknMH",
+        "img": "v1723291997/johnthachil.com/Uses/lg-oled.png",
+        "color": {
+          "hex": "#795eff"
+        }
+      },
+      {
+        "id": "clzo402rt9m6p071cp0o7jfto",
+        "name": "Apple TV  (4K)",
+        "description": "Best investment made. No ads. No Lags ",
+        "link": "https://www.apple.com/in/apple-tv-4k/",
+        "img": "v1723292646/johnthachil.com/Uses/appletv.png",
+        "color": {
+          "hex": "#7e7e7e"
+        }
+      },
+      {
+        "id": "clzo45kby9mhx07101xr1vmbe",
+        "name": "LG SP8A",
+        "description": "For all the atoms sound.",
+        "link": "https://bit.ly/3Z2grkv",
+        "img": "v1723292914/johnthachil.com/Uses/lgsp8a.png",
+        "color": {
+          "hex": "#b62852"
+        }
+      },
+      {
+        "id": "ckvkcvo8olk4c0b81kfkcfwfm",
+        "name": "Playstation 5",
+        "description": "All work and no play makes John a dull boy",
+        "link": "https://bit.ly/3Axtz6Y",
+        "img": "v1723300059/johnthachil.com/Uses/ps5-big-v2.png",
+        "color": {
+          "hex": "#414547"
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "Photography",
+    "id": "clzo36i779jb7071cmxm7kil9",
+    "uses": [
+      {
+        "id": "cl5kcu3rv68sg0b0xg6umttz8",
+        "name": "Fujifilm X-E4",
+        "description": "EDC camera gear",
+        "link": "https://amzn.to/3YZKHfL",
+        "img": "v1723292150/johnthachil.com/Uses/fuji-xe4.png",
+        "color": {
+          "hex": "#dcdcdc"
+        }
+      },
+      {
+        "id": "ckvkcvy9slg6f0b36ixutahse",
+        "name": "Nikon D3300",
+        "description": "For photgrapher within me. Someone gift me Fujifilm X-T4 Please!!",
+        "link": "https://bit.ly/3T50Fl1",
+        "img": "v1723292304/johnthachil.com/Uses/d3300v2.png",
+        "color": {
+          "hex": "#f1e117"
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "Desk Setup",
+    "id": "clzowgm07cm4f0710ouaryyd2",
+    "uses": [
+      {
+        "id": "clzowl30fcmhe071c1a6r6vk4",
+        "name": "Featherlite Helix",
+        "description": "My spine can thank me later.",
+        "link": "https://bit.ly/3yGkZCA",
+        "img": "v1723340652/johnthachil.com/Uses/featherlitev2.png",
+        "color": {
+          "hex": "#14b8a6"
+        }
+      },
+      {
+        "id": "clzowqa6xcmnx071cay7sm0q9",
+        "name": "PurpleArk Electric Sit-Stand Desk",
+        "description": "Apparently sitting is new smoking",
+        "link": "https://bit.ly/3Awob3Z",
+        "img": "v1723340652/johnthachil.com/Uses/purple.png",
+        "color": {
+          "hex": "#60a5fa"
+        }
+      }
+    ]
+  }
+]
